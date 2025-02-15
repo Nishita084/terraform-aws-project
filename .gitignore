@@ -1,0 +1,16 @@
+# Terraform state and backup files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform cache files
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive credentials (never commit these!)
+*.pem
+*.key
+aws_credentials
+
+# Logs and temporary files
+*.log
+*.tmp
